@@ -1,7 +1,6 @@
 Module: intops
 
-define function main
-    (name :: <string>, arguments :: <vector>)
+define function main (name :: <string>, arguments :: <vector>)
   let a = string-to-integer(arguments[0]);
   let b = string-to-integer(arguments[1]);
 
