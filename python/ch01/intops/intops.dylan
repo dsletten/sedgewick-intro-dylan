@@ -7,7 +7,7 @@ define function main (name :: <string>, arguments :: <vector>)
   let sum = a + b;
   let difference = a - b;
   let product = a * b;
-//  let quotient = truncate(a / b);
+//  let quotient = truncate(a, b);
   let remainder = remainder(a, b);
   let power = a ^ b;
 
@@ -15,7 +15,7 @@ define function main (name :: <string>, arguments :: <vector>)
   format-out("%d + %d = %d\n", a, b, sum);
   format-out("%d - %d = %d\n", a, b, difference);
   format-out("%d * %d = %d\n", a, b, product);
-//  format-out("%d / %d = %d\n", a, b, quotient);
+  format-out("%d / %d = %d\n", a, b, quotient);
   format-out("%d %% %d = %d\n", a, b, remainder);
   format-out("%d ^ %d = %d\n", a, b, power);
 
